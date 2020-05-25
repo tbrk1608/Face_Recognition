@@ -4,6 +4,10 @@ This is a simple Python script which uses the images from /dataset directory and
 
 Here the /dataset directory contains images (20 each) of 5 Indian Cricketers: Dravid, Ganguly, MS Dhoni, Sachin Tendulkar and Virat Kohli and the /test directory contains 4 images to test our model.
 
+1. face_recognition.py : To detect faces from still images
+2. face_recognition_video.py : To detect faces from a live feed thru webcam
+3. face_encodes_colab.pkl : pickle file containing the encodings of images in /dataset
+
 **Sample output:**
 
 ![Sample Output](https://github.com/tbrk1608/Face_Recognition/blob/master/sample_output.png?raw=true)
