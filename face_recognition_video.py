@@ -20,7 +20,7 @@ time.sleep(2.0)
 while True:
     frame = vs.read()
     rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    locs = face_recognition.face_locations(rgb_frame,model="hog")
+    locs = face_recognition.face_locations(rgb_frame,model="cnn")
     test_encodings = face_recognition.face_encodings(rgb_frame, locs)
     
     face_tags =[]
